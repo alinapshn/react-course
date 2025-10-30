@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import { formatMoney } from "../../utils/money";
 
-export function OrdersHeader(order) {
+export function OrdersHeader({order}) {
   return (
     <div className="order-header">
       <div className="order-header-left-section">
